@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.win-message {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.replay-button {
+  margin-left: 30px;
+  margin-top: 0;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.replay-button:hover {
+  background-color: #218838;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between; /* Space between the time and high score */
+  width: 100%; /* Adjust to fit the parent container */
+  max-width: 400px; /* Optional: Set a max width */
+  margin: 20px 0; /* Add some margin for spacing */
+}

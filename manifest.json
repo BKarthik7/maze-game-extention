@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Maze Game",
+  "version": "1.0",
+  "description": "A constantly changing maze game.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "public/maze-game-icon.png",
+      "48": "public/maze-game-icon.png",
+      "128": "public/maze-game-icon.png"
+    }
+  }
+}
